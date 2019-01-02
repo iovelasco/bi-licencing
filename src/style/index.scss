@@ -1,0 +1,33 @@
+//odin theme
+@import './odin-theme';
+
+
+@import '~@andes/card/index';
+@import '~@andes/checkbox/base';
+@import '~@andes/dropdown/index';
+@import '~@andes/button/index';
+@import '~@andes/form/index';
+@import '~@andes/list/index';
+@import '~@andes/modal/index';
+@import '~@andes/textfield/index';
+@import '~@andes/breadcrumb/index';
+@import '~@andes/textfield/lib/styles/textbox';
+@import '~@andes/spinner/index';
+
+
+
+//components
+@import '../components/HeaderApp/HeaderApp';
+
+
+
+//pages
+@import '../pages/HomeView/HomeView';
+@import '../pages/Login/Login';
+
+// ITCSS
+
+
+.wrapper-app{
+  padding: 0;
+}

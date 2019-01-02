@@ -1,0 +1,11 @@
+@import '../../style/odin-theme';
+
+.header-app{
+  min-width: 100%;
+  width: 100%;
+  border-radius: 0;
+  background-color: $andes-blue-400;
+  .row{
+    margin: 0;
+  }
+}

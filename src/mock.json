@@ -1,0 +1,23 @@
+{
+  "user": {
+    "id": 1,
+    "quantity": 3,
+    "assigned": [
+      {
+        "name": "Tableau",
+        "code": 1234,
+        "status": "cancel"
+      },
+      {
+        "name": "Micro Strategy",
+        "code": 1234,
+        "status": "cancel"
+      },
+      {
+        "name": "Alation",
+        "code": 1234,
+        "status": "cancel"
+      }
+    ]
+  }
+}

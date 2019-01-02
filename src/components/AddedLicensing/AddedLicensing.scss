@@ -1,0 +1,27 @@
+@import '../../style/odin-theme';
+
+.added-licensing {
+  width: 100%;
+  margin: $andes-spacing-20 0;
+  &__accountant-title{
+    margin: 0 0 $andes-spacing-12  $andes-spacing-12;
+  }
+  &__quantity {
+    > .andes-card {
+      display: flex;
+      flex-direction: column;
+      align-content: center;
+      text-align: center;
+      height: 100%;
+      h2 {
+        font-size: $font-size-24 * 2;
+        margin: $andes-spacing-8 $andes-spacing-16 auto;
+      }
+    }
+  }
+  &__accountant{
+    > .andes-card {
+      min-height: 160px;
+    }
+  }
+}

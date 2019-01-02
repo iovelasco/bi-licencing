@@ -1,0 +1,52 @@
+@import '../../style/odin-theme';
+
+
+.config-licensing {
+  width: 100%;
+  margin: 0;
+  &__title {
+    min-height: $andes-spacing-56;
+    border-bottom: 1px solid $andes-gray-70;
+  }
+  &__wrapper-config {
+    padding: 0;
+  }
+  &__tabs {
+    display: flex;
+  }
+  &--tabs-list {
+    border-right: 1px solid $andes-gray-70;
+    width: 20%;
+  }
+  &--tabs-content {
+    display: flex;
+    width: 80%;
+    min-height: 400px;
+  }
+}
+
+.view-dashboard {
+  >div {
+    min-height: 350px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+  }
+  &--input {
+    margin-bottom: $andes-spacing-20;
+  }
+}
+.edit-dashboard {
+    >div {
+      min-height: 400px;
+      display: flex;
+      justify-content: center;
+      align-content: center;
+      flex-direction: column;
+      padding: $andes-spacing-40;
+    }
+    >div:first-child{
+      border-right: 1px solid $andes-gray-70;
+    }
+}

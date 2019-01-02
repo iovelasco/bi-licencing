@@ -1,0 +1,40 @@
+@import '../../style/odin-theme';
+
+.license-card{
+  display: flex;
+  box-shadow: none;
+  height: 126px;
+  background: $andes-bg-primary;
+  padding: $andes-spacing-16;
+  border-radius: 4px;
+  >div:nth-child(1){
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    span{
+      background: $andes-success-green;
+      border-radius: 50%;
+      display: flex;
+      justify-content: center;
+      align-content: center;
+      align-items: center;
+      width: 80px;
+      height: 80px;
+      color: $andes-white;
+    }
+
+  }
+  > div:nth-child(2){
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  h2{
+    margin-bottom: $andes-spacing-12;
+  }
+  p{
+    span{
+      margin-right: $andes-spacing-4;
+    }
+  }
+}

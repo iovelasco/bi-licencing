@@ -1,0 +1,54 @@
+{
+  "name": "bi-licensing",
+  "version": "0.1.0",
+  "private": true,
+  "description": "",
+  "dependencies": {
+    "@andes/breadcrumb": "^2.8.0",
+    "@andes/button": "^2.8.0",
+    "@andes/card": "^2.8.0",
+    "@andes/checkbox": "^2.8.0",
+    "@andes/common": "^2.8.0",
+    "@andes/dropdown": "^2.8.0",
+    "@andes/form": "^2.8.0",
+    "@andes/list": "^2.8.0",
+    "@andes/message": "^2.8.0",
+    "@andes/modal": "^2.8.0",
+    "@andes/spinner": "^2.8.0",
+    "@andes/tabs": "^2.8.0",
+    "@andes/textfield": "^2.8.0",
+    "@material-ui/core": "^3.8.1",
+    "@material-ui/icons": "^3.0.1",
+    "axios": "^0.18.0",
+    "classnames": "^2.2.6",
+    "node-sass": "^4.11.0",
+    "nordic": "^4.7.0",
+    "nordic-dev": "^3.2.0",
+    "odin": "0.0.10",
+    "postcss-loader": "^3.0.0",
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0",
+    "react-flexbox-grid": "^2.1.2",
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "2.1.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "devDependencies": {
+    "css-loader": "^2.1.0",
+    "style-loader": "^0.23.1"
+  }
+}
